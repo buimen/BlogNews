@@ -1,0 +1,155 @@
+body {
+    font-family: Georgia, Lucida Console;
+    font-size: 16px;
+    background-color: #fafafa;
+}
+
+/*Header*/
+.navbar-default {
+    background-color: #fff;
+}
+
+.navbar-header {
+    width: 300px;
+    float: left;
+}
+
+.logo {
+    font-family: Lucida Console;
+    font-size: 32px;
+}
+
+.input-group {
+    width: 150px;
+    padding-top: 10px;
+}
+
+.input-group span {
+    width: 30px;
+    margin: 0px -10px 0px -25px;
+    color: gray;
+}
+
+.input-group span a {
+    text-decoration: none;
+}
+
+.input-group input {
+    width: 200px;
+    padding-left: 10px;
+    height: 28px;
+}
+
+.collapse ul li {
+    font-family: Georgia;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.collapse ul li a {
+    margin-top: -8px;
+    font-family: Georgia;
+    font-size: 16px;
+    float: left;
+    position: relative;
+}
+
+.collapse ul li a img {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-top: -5px;
+	margin-right: 10px;
+}
+
+.collapse ul li ul {
+	display: none;
+}
+
+.collapse ul li:hover ul {
+    display: block;
+}
+
+.collapse ul li ul li {
+    width: 50px;
+    padding: 0px;
+}
+
+.collapse ul li ul li a {
+    margin-top: 10px;
+    padding-left: 0px;
+}
+
+.content {
+    margin-top: -40px;
+}
+.col-sm-2 {
+    box-shadow: 2px 2px 5px #ccc;
+    background-color: #fff;
+}
+.col-sm-2 ul li {
+    list-style: none;
+    margin-left: -30px;
+    padding-top: 10px;
+}
+
+.col-sm-2 ul li a {
+    color: #333;
+    margin-top: 10px;
+}
+
+.title input {
+	height: 30px;
+    margin-bottom: 20px;
+}
+
+.title select {
+	height: 30px;
+    margin-bottom: 20px;
+}
+
+.summary p {
+	height: 100px;
+	margin: 20px 0px;
+}
+
+.summary {
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.content textarea {
+	height: 300px;
+}
+
+.content {
+	padding-top: 50px;
+}
+
+.bottom {
+  margin-top: 20px;
+}
+
+.bottom button {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+table tbody tr td img {
+    width: 40px;
+    height: 40px;
+}
+
+tbody tr td input {
+    padding-left: 10px;
+    width: 567px;
+    float: right;
+    margin-top: 10px;
+    height: 30px;
+}
+
+tbody tr td button {
+    width: 65px;
+    margin-top: 5px;
+}

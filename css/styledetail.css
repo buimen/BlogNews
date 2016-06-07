@@ -1,0 +1,21 @@
+.main {
+	padding-left: 10px;
+	box-shadow: 2px 2px 5px #ccc;
+	background-color: #fff;
+}
+
+.main .content {
+	padding-bottom: 10px;
+}
+
+/*Footer*/
+footer {
+  background-color: #fff;
+  height: 50px;
+}
+
+footer p  {
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 15px;
+}

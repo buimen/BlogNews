@@ -1,0 +1,55 @@
+body {
+  font-family: Georgia, Lucida Console;
+  font-size: 16px;
+  background-color: #fafafa;
+}
+
+/*Header*/
+.navbar-default {
+  background-color: #fff;
+}
+
+.navbar-header {
+  width: 300px;
+  float: left;
+}
+
+.logo {
+  font-family: Lucida Console;
+  font-size: 32px;
+}
+
+.input-group {
+  width: 150px;
+  padding-top: 10px;
+}
+
+.input-group .btnsearch {
+  margin-top: -5px;
+  width: 28px;
+  height: 26px;
+  margin-left: -30px;
+  border: 0px;
+}
+
+.input-group span {
+  color: gray;
+}
+
+.input-group input {
+  width: 200px;
+  padding-left: 10px;
+  height: 28px;
+}
+
+.collapse ul li {
+  font-family: Georgia;
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+.collapse ul li button {
+  margin-top: -8px;
+  font-family: Georgia;
+  font-size: 16px;
+}

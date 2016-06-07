@@ -1,0 +1,85 @@
+/*Content*/
+.item {
+  /*border: 1px solid #e7e7e7;*/
+  box-shadow: 2px 2px 5px #ccc;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.item .title {
+  height: 50px;
+}
+
+.item .title img {
+  float: left;
+  width: 50px;
+  height: 100%;
+  margin: 10px;
+}
+
+.item .title .user {
+  float: left;
+  margin-left: 10px;
+}
+
+.item .title .user p {
+  margin-top: 10px;
+  margin-bottom: -2px;
+}
+
+.item .main {
+  height: 150px;
+}
+
+.item .main .content {
+  float: left;
+  margin-left: 10px;
+  width: 450px;
+}
+
+.item .main .content h2 {
+  margin-top: 0px;
+}
+
+.item .main .content h2 a {
+  text-decoration: none;
+}
+
+.item .main img {
+  float: right;
+  margin: 0px 10px 0px 0px;
+  width: 150px;
+  height: 100%;
+}
+
+.item .bottom {
+  height: 40px;
+  margin: 10px;
+}
+
+.item .bottom button {
+  float: left;
+}
+
+.item .bottom .share {
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.item .bottom .share a {
+  margin-right: 10px;
+  color: #e67e22;
+}
+
+.item .bottom .share a:hover {
+  color: #faa;
+}
+
+/*Footer*/
+footer {
+  background-color: #fff;
+  clear: both;
+  text-align: center;
+  padding: 10px; 
+}
