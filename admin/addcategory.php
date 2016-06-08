@@ -19,6 +19,9 @@
 		}
 		header("location: ../admin/category.php");
 	}
+	if (!isset($_SESSION['memberUser'])) {
+		header("location: ../admin/login.php");
+	}
 ?>
 
 <!DOCTYPE html>

@@ -1,55 +1,75 @@
 body {
-  font-family: Georgia, Lucida Console;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
   background-color: #fafafa;
+  color: black;
 }
 
-/*Header*/
-.navbar-default {
-  background-color: #fff;
+.wrapper {
+	width: 100%;
+	margin: 0px auto;
 }
 
-.navbar-header {
-  width: 300px;
-  float: left;
+header {
+	width: 100%;
+	background-color: #fff;
+	margin: 0px auto;
+	border-bottom: 1px solid #dae2ea;
 }
 
-.logo {
-  font-family: Lucida Console;
-  font-size: 32px;
+header .navbar-default {
+	border: 0px;
+    width: 1170px;
+    margin: 0px auto;
+    background-color: #fff;
 }
 
-.input-group {
-  width: 150px;
-  padding-top: 10px;
+header .navbar-default .navbar-header {
+	width: 35%;
 }
 
-.input-group .btnsearch {
-  margin-top: -5px;
-  width: 28px;
-  height: 26px;
-  margin-left: -30px;
-  border: 0px;
+header .navbar-default .navbar-header a {
+	font-family: Lucida Console;
+	font-size: 40px;
+	color: #199;
 }
 
-.input-group span {
-  color: gray;
+header .navbar-default .navbar-header input {
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 14px;
 }
 
-.input-group input {
-  width: 200px;
-  padding-left: 10px;
-  height: 28px;
+header .navbar-default .navbar-header .btn-default {
+	border: 0px;
+    margin: 7px -10px 10px -20px;
+    padding: 0px;
 }
 
-.collapse ul li {
-  font-family: Georgia;
-  font-size: 16px;
-  margin-left: 30px;
+header .navbar-default .navbar-collapse {
+	width: 65%;
+	float: right;
 }
 
-.collapse ul li button {
-  margin-top: -8px;
-  font-family: Georgia;
-  font-size: 16px;
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #199;
+}
+
+header .navbar-default nav span {
+	display: none;
+	color: #443434;
+}
+
+header .navbar-default nav button {
+	margin-top: -7px;
+}
+
+header .navbar-default nav button:hover {
+	background: #c7c2c1;
+	border: 1px solid #c7c2c1;
 }

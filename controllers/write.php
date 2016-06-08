@@ -34,4 +34,7 @@
 		}
 		header("location: ../controllers/listnews.php?member=".$listMember['memberUser']);
 	}
+	if (!isset($_SESSION['memberUser'])) {
+		header("location: ../controllers/login.php");
+	}
 	include "../views/viewwrite.php";

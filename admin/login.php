@@ -8,11 +8,12 @@
 	$listMember = $member->getMemberLevelByID($user, $pass);
 	if (isset($_POST['login'])) {
 		if ($user && $pass) {
-			if ($listMember) {
+			if (isset($listMember)) {
+				$_SESSION['memberUser'] = $user;
 				header("location: ../admin/home.php?member=".$user);
 			}
 			else {
-				$errPass = "Bạn không có quyền đăng nhập Admin";
+				$errPass = "Username hoặc Password không đúng";
 			}
 		}
 		else {

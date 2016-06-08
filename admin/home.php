@@ -1,11 +1,15 @@
 <?php
 	include "../models/query.php";
+	$user = $_GET['member'];
 	$news = new SQL\News();
 	$category = new SQL\Category();
 	$listCategory = $category->getCategory();
 	$search = isset($_POST['isearch']) ? $_POST['isearch'] : null;
 	$submit = isset($_POST['btn']) ? $_POST['btn'] : null;
 	$list = $news->getSearch($search);
+	if (!isset($_SESSION['memberUser'])) {
+		header("location: ../admin/login.php");
+	}
 	switch ($submit) {
 		case 'search':
 			break;
@@ -43,7 +47,7 @@
 						<li>
 							<a class="nav navbar-brand navbar-right" href="#">
 								<img src="../images/members/admin-account-dnn7.png">
-								Admin
+								<?php echo $user; ?>
 							</a>
 							<ul class="dropdown-menu">
 								<li><a href="../controllers/logout.php" onclick='return confirm("Bạn chắc chắn muốn thoát không?")'>Thoát</a></li>

@@ -14,6 +14,9 @@
 		default:
 			break;
 	}
+	if (!isset($_SESSION['memberUser'])) {
+		header("location: ../admin/login.php");
+	}
 ?>
 
 <!DOCTYPE html>

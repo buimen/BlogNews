@@ -1,0 +1,111 @@
+
+@media screen and (max-width: 1170px) {
+	header .navbar-default {width: 100%; background: #fff;}
+	.navbar-right {margin-right: 0px;}
+	/*end home*/
+}
+
+@media screen and (max-width: 1024px) {
+	header .navbar-default .navbar-header {width: 20%;}
+	header .navbar-default .navbar-collapse {width: 80%; float: right;}
+	.input-group {display: none;}
+	.item .bottom button {width: 35%;}
+	.item .bottom .share {width: 50%;}
+	/*end home*/
+
+	.main .detail .newscontent img {max-width: 100%; max-height: 100%;}
+
+	.main .detail .newscontent p img {max-width: 100%; max-height: 100%;}
+	/*end detail*/
+
+	.login {width: 50%;}
+	/*end login user*/
+
+}
+
+@media screen and (max-width: 768px) {
+	.input-group {display: none;}
+	.item {width: 100%; padding: 0px;}
+	header .navbar-default .navbar-header {width: 20%;}
+	header .navbar-default .navbar-collapse {width: 80%; float: right;}
+	.input-group {display: none;}
+	.item .bottom button {width: 35%;}
+	.share p {display: none; float: left;}
+	header .navbar-default nav span {display: block;}
+
+	nav>ul {display: none;}
+	nav {font-size: 20px; position: relative; width: 30%; line-height: 1.7; float: right; margin-top: -40px; padding-left: 100px;}
+	nav:hover {color: #199; cursor: pointer;}
+	nav:hover ul {display: block; position: absolute; background-color: #fff; width: 200px; left: -20px; top: 20px; padding-left: 20px;}
+	/*end home*/
+
+	.login {width: 70%;}
+	/*end login user*/
+
+}
+
+@media screen and (max-width: 680px) {
+	.login {width: 90%;}
+	/*end login user*/
+
+	/*Đang dở*/
+	/**/
+	.title .input-title {width: 100%;}
+	.title input {width: 50%; float: right;}
+	.summary {width: 100%;}
+	.bottom input {width: 100%;}
+	/*end write*/
+}
+
+@media screen and (max-width: 480px) {
+	.item .title img {width: 10%; margin: 15px 0px 0px 15px;}
+	.item .title .user p {margin-top: 18px;}
+	.item .title .p-hide {display: none;}
+	.item .main img {display: none;}
+	.item .main .content {width: 100%;}
+	.item .main .content p {margin-right: 10px;}
+	.item .bottom button {width: 35%; padding-left: 0px;}
+	.item .bottom button i {display: none;}
+	.share p {display: none;}
+
+	nav>ul {display: none;}
+	nav {font-size: 20px; position: relative; width: 30%; line-height: 1.7; float: right; margin-top: -40px; padding-left: 20px;}
+	nav:hover {color: #199; cursor: pointer;}
+	nav:hover ul {display: block; position: absolute; background-color: #fff; width: 200px; left: -90px; top: 20px; padding-left: 20px;}
+	/*end home*/
+
+	.login {width: 100%;}
+	/*end login user*/
+}
+
+@media screen and (max-width: 320px) {
+	.item .title {height: 50px;}
+	.item .title img {width: 10%; margin: 15px 0px 0px 15px;}
+	.item .title .user {padding-top: 0px;}
+	.item .main .content h3 {padding-right: 10px;}
+	.item .title .p-hide {display: none;}
+	.item .main img {display: none;}
+	.item .main .content {width: 100%;}
+	.item .main .content p {margin-right: 20px;}
+	.item .bottom button {width: 45%; padding-left: 0px;}
+	.item .bottom button i {display: none;}
+	.share p {display: none;}
+	.item .bottom .share {padding-left: 15px; margin: 0px; padding-top: 3px;}
+
+	nav>ul {display: none;}
+	nav {font-size: 20px; position: relative; width: 30%; line-height: 1.7; float: right; margin-top: -40px; padding-left: 0px;}
+	nav:hover {color: #199; cursor: pointer;}
+	nav:hover ul {display: block; position: absolute; background-color: #fff; width: 200px; left: -100px; top: 20px; padding-left: 20px;}
+	/*end home*/
+
+	.login {width: 100%;}
+	.form-group {margin: 0px;}
+	.name {display: none;}
+	.form-group .put input {margin-left: 5px; width: 90%;}
+	.btn {margin-bottom: 10px;}
+	/*end login user*/
+}
+
+@media screen and (max-width: 240px) {
+	
+}

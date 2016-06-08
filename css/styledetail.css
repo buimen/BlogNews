@@ -1,21 +1,62 @@
-.main {
-	padding-left: 10px;
-	box-shadow: 2px 2px 5px #ccc;
-	background-color: #fff;
+.wrapper .content {
+	margin-top: 20px;
 }
 
-.main .content {
+.main {
+	padding-left: 10px;
+	border: 1px solid #dae2ea;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+.main .back {
+	background-color: #eae5e5;
+    height: 25px;
+    line-height: 1.7;
+    margin-left: -10px;
+}
+
+.main .back p {
+	margin-left: 10px;
+}
+
+.main .detail {
+	padding-bottom: 10px;
+}
+
+.main .detail .title {
+	height: 20%;
+	border-bottom: 1px solid #dae2ea;
+	margin-left: -10px;
+    padding-left: 10px;
+}
+
+.main .detail .newscontent {
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+.main .detail p {
+	font-size: 14px;
+}
+
+.main .detail h3 {
+	color: #443434;
+}
+
+.main .tag {
 	padding-bottom: 10px;
 }
 
 /*Footer*/
 footer {
-  background-color: #fff;
-  height: 50px;
+  	background-color: #fff;
+  	height: 50px;
+  	border-top: 1px solid #dae2ea;
 }
 
 footer p  {
-  text-align: center;
-  margin-top: 15px;
-  padding-top: 15px;
+  	text-align: center;
+  	margin-top: 15px;
+  	padding-top: 15px;
 }

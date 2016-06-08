@@ -1,5 +1,4 @@
 <?php
-	session_start();
-	if (session_destroy()) {
-		header('location: ../index.php');
-	}
+	include "../models/query.php";
+	session_destroy();
+	header("location: ../controllers/home.php");

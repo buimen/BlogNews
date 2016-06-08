@@ -1,70 +1,91 @@
 /*Content*/
 .item {
-  /*border: 1px solid #e7e7e7;*/
-  box-shadow: 2px 2px 5px #ccc;
+  border: 1px solid #dae2ea;
   background-color: #fff;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
 }
 
 .item .title {
-  height: 50px;
+  height: 70px;
+  border-bottom: 1px solid #dae2ea;
 }
 
 .item .title img {
   float: left;
-  width: 50px;
-  height: 100%;
-  margin: 10px;
+  width: 7%;
+  max-height: 100%;
+  margin-top: 12px;
+  margin-left: 10px;
 }
 
 .item .title .user {
   float: left;
   margin-left: 10px;
+  padding-top: 5px;
 }
 
 .item .title .user p {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: -2px;
 }
 
 .item .main {
-  height: 150px;
+  height: 200px;
+  padding-top: 15px;
 }
 
 .item .main .content {
   float: left;
   margin-left: 10px;
-  width: 450px;
+  width: 60%;
 }
 
-.item .main .content h2 {
+.item .main .content h3 {
   margin-top: 0px;
 }
 
-.item .main .content h2 a {
+.item .main .content h3 a {
   text-decoration: none;
+  color: #443434;
+}
+
+.item .main .content h3 a:hover {
+  color: #199;
 }
 
 .item .main img {
   float: right;
   margin: 0px 10px 0px 0px;
-  width: 150px;
-  height: 100%;
+  width: 30%;
+  max-height: 100%;
 }
 
 .item .bottom {
-  height: 40px;
-  margin: 10px;
+  height: 70px;
+  padding-top: 15px;
+  border-top: 1px solid #dae2ea;
+  background: #eae5e5;
 }
 
 .item .bottom button {
   float: left;
+  width: 25%;
+  margin-left: 10px;
 }
 
 .item .bottom .share {
   float: left;
   margin-left: 20px;
   margin-top: 5px;
+  width: 60%;
+  padding-top: 3px;
+}
+
+.item .bottom .share p {
+  float: left;
+  margin-right: 10px;
 }
 
 .item .bottom .share a {
@@ -73,13 +94,15 @@
 }
 
 .item .bottom .share a:hover {
-  color: #faa;
+  color: #199;
 }
 
 /*Footer*/
 footer {
   background-color: #fff;
+  height: 50px;
   clear: both;
   text-align: center;
-  padding: 10px; 
+  padding: 25px 0px 20px 0px;
+  border-top: 1px solid #dae2ea;
 }

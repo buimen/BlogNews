@@ -18,4 +18,7 @@
 		default:
 			break;
 	}
+	if (!isset($_SESSION['memberUser'])) {
+		header("location: ../controllers/login.php");
+	}
 	include "../views/viewlistnews.php";
